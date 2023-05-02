@@ -1,0 +1,696 @@
+@font-face {
+    font-family: "Gordita-Bold";
+    src: url(./Assets/fonts/Gordita/Gordita\ Bold.woff) format("woff");
+  }
+@font-face {
+    font-family: "Gordita";
+    src: url(./Assets/fonts/Gordita/Gordita\ Regular.woff) format("woff");
+  }
+h1{
+    font-family:Gordita-Bold;
+}
+*{
+    font-family: Gordita;
+}
+a{
+    font-family: Gordita;
+    text-decoration: none;
+}
+p{
+    font-family: Gordita;
+    line-height: 1.5rem;
+    color: #888398;
+}
+ul{
+    padding: 0;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+    
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+/* <!-- /////////////////////////////////////////////////////-----------Header --> */
+#Header{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 auto;
+    background: #fff;
+}
+.logo{
+    width: 15%;
+}
+.header-logo{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+.navbar{
+    width: 50%;
+}
+.navbar ul{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li a{
+    color: #888398;
+    font-size: 15px;  
+    position: relative;
+}
+.navbar ul li a:active{
+    color: black;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: linear-gradient(180deg, #E45F83, #f3b8a1);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 80%; 
+}
+.log-in-box{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #888398;
+}
+.log-in{
+    margin: 0 20px;
+}
+.sign-up{
+    background: linear-gradient(180deg, #E45F83, #f3b8a1);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.sidebar-button-div{
+    display: none;
+}
+
+/* ------------------------------------------------------------------980px responsive-----Header-----*/
+@media all and (max-width: 980px){
+    #Header{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 auto;
+        background: #fff;
+    }
+    .logo{
+        width: 15%;
+    }
+    .header-logo{
+        width: 120px;
+        height: 50px;
+        margin: auto;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .navbar ul{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar ul li a{
+        color: #888398;
+        font-size: 13px;  
+        position: relative;
+    }
+    .log-in-box{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        color: #888398;
+    }
+    .log-in{
+        margin: 0 20px;
+    }
+    .sign-up{
+        background: linear-gradient(180deg, #E45F83, #f3b8a1);
+        padding: 10px 25px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
+@media all and (max-width: 768px){
+    #Header{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 auto;
+        background: #fff;
+    }
+    .logo{
+        width: 15%;
+    }
+    .header-logo{
+        width: 100px;
+        height: 50px;
+        margin: auto;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .navbar ul{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar ul li a{
+        color: #888398;
+        font-size: 12px;  
+        position: relative;
+    }
+    .log-in-box{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        color: #888398;
+    }
+    .log-in{
+        margin: 0 20px;
+    }
+    .sign-up{
+        background: linear-gradient(180deg, #E45F83, #f3b8a1);
+        padding: 7px 20px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
+@media all and (max-width: 640px){
+    #Header{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 auto;
+        background: #fff;
+    }
+    .logo{
+        width: 15%;
+    }
+    .header-logo{
+        width: 80px;
+        height: 40px;
+        margin: auto;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .navbar ul{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar ul li a{
+        color: #888398;
+        font-size: 10px;  
+        position: relative;
+    }
+    .log-in-box{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        color: #888398;
+    }
+    .log-in{
+        margin: 0 20px;
+    }
+    .sign-up{
+        background: linear-gradient(180deg, #E45F83, #f3b8a1);
+        padding: 7px 20px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+@media all and (max-width: 480px){
+    #Header{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 auto;
+        background: #fff;
+    }
+    .logo{
+        width: 15%;
+    }
+    .header-logo{
+        width: 150px;
+        height: 40px;
+        margin: auto;
+    }
+    .navbar{
+        display: none;
+        width: 50%;
+    }
+    .navbar ul{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar ul li a{
+        color: #888398;
+        font-size: 10px;  
+        position: relative;
+    }
+    .log-in-box{
+        width: auto;
+        display: none;
+    }
+    .log-in{
+        margin: 0 20px;
+    }
+    .sign-up{
+        background: linear-gradient(180deg, #E45F83, #f3b8a1);
+        padding: 7px 20px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+    .sidebar-button-div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    #sidebar-button{
+        margin: 10px;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Sidebar -->  */
+
+#SideMenuBar{
+    display: none;
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 200px;
+}
+.logo-sidebar{
+    margin: 25px auto;
+}
+.sidebar ul{
+    margin: 25px auto;
+    text-align: center;
+}
+.sidebar ul li{
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sidebar ul li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px auto;
+    position: relative;
+}
+.sidebar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.sidebar ul li a:hover::after{
+    width: 100%;
+}
+.log-in-box.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    margin: auto;
+    height: 100px;
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+@media all and (max-width: 480px){
+    #SideMenuBar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -200px;
+        width: 200px;
+        height: 100vh;
+        background: #fff;
+        z-index: 2;
+    }
+    #SideMenuBar.active{
+        left: 0;
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////////<-- Spotlight -->  */
+
+#Spotlight{
+    margin-top: 100px;
+    background: #F8F8FA;
+}
+.wrapper.Spotlight{
+    display: flex;
+}
+.Spotlight-left{
+    width: 50%;
+}
+.Spotlight-left-content{
+    padding: 100px;
+}
+.Spotlight-left-content h5{
+    font-size: 15px;
+    color: #888398;
+}
+.Spotlight-left-content h1{
+    font-size: 45px;
+    width: 80%;
+}
+.Spotlight-left-content p{
+    font-size: 15px;
+}
+.button{
+    background: linear-gradient(260deg, #E45F83, #f3b8a1);
+    padding: 15px 40px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+.Spotlight-right{
+    width: 50%;
+}
+.Spotlight-right img{
+    display: block;
+    width: 100%;
+}
+/* ------------------------------------------------------------------980px responsive-----Spotlight-----*/
+@media all and (max-width: 980px){
+    .wrapper.Spotlight{
+        display: flex;
+    }
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left-content{
+        padding: 50px 100px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 12px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 38px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 12px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 16px 40px;
+        font-size: 14px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 50%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+@media all and (max-width: 768px){
+    .wrapper.Spotlight{
+        display: flex;
+    }
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left-content{
+        padding: 40px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 12px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 32px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 12px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 12px 30px;
+        font-size: 12px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 50%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+@media all and (max-width: 640px){
+    .wrapper.Spotlight{
+        display: flex;
+    }
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left-content{
+        padding: 30px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 9px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 9px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 8px 20px;
+        font-size: 9px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 50%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+@media all and (max-width: 480px){
+    .wrapper.Spotlight{
+        display: flex;
+    }
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left-content{
+        padding: 20px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 7px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 7px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 8px 20px;
+        font-size: 7px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 50%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+@media all and (max-width: 360px){
+    .wrapper.Spotlight{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Spotlight-left{
+        width: 100%;
+        text-align: center;
+    }
+    .Spotlight-left-content{
+        padding: 20px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 13px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 13px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 8px 20px;
+        font-size: 7px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 100%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Spotlight-----*/
+@media all and (max-width: 320px){
+    .wrapper.Spotlight{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Spotlight-left{
+        width: 100%;
+        text-align: center;
+    }
+    .Spotlight-left-content{
+        padding: 20px;
+    }
+    .Spotlight-left-content h5{
+        font-size: 9px;
+        color: #888398;
+    }
+    .Spotlight-left-content h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .Spotlight-left-content p{
+        font-size: 9px;
+    }
+    .button{
+        background: linear-gradient(260deg, #E45F83, #f3b8a1);
+        padding: 8px 20px;
+        font-size: 7px;
+        color: #fff;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    .Spotlight-right{
+        width: 100%;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+    }
+}

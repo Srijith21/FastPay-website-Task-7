@@ -1,0 +1,13 @@
+Light Orange - #F3E4DE
+Rose - #E45F83
+Violet - #9D5BFF
+Blue - #6BCDF7
+
+
+Font Color ---------------
+
+Black - #000000
+Gray - #888398
+
+Spotlight --------------------
+Gary - #F8F8FA
