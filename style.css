@@ -746,7 +746,7 @@ ul li{
 }
 
 
-/* ------------------------------------------------------------------1440px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------1440px responsive-----Highlights-----*/
 @media all and (max-width: 1440px){
     #Highlights{
     }
@@ -796,7 +796,7 @@ ul li{
         width: 55%;
     }
 }
-/* ------------------------------------------------------------------1280px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------1280px responsive-----Highlights-----*/
 @media all and (max-width: 1280px){
     #Highlights{
     }
@@ -846,7 +846,7 @@ ul li{
         width: 100%;
     }
 }
-/* ------------------------------------------------------------------980px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------980px responsive-----Highlights-----*/
 @media all and (max-width: 980px){
     #Highlights{
     }
@@ -893,7 +893,7 @@ ul li{
         width: 100%;
     }
 }
-/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------768px responsive-----Highlights-----*/
 @media all and (max-width: 768px){
     #Highlights{
     }
@@ -945,7 +945,7 @@ ul li{
         padding: 0;
     }
 }
-/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------640px responsive-----Highlights-----*/
 @media all and (max-width: 640px){
     #Highlights{
     }
@@ -997,7 +997,7 @@ ul li{
         padding: 0;
     }
 }
-/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------480px responsive-----Highlights-----*/
 @media all and (max-width: 480px){
     #Highlights{
     }
@@ -1049,7 +1049,7 @@ ul li{
         padding: 0;
     }
 }
-/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------360px responsive-----Highlights-----*/
 @media all and (max-width: 360px){
     #Highlights{
     }
@@ -1101,7 +1101,7 @@ ul li{
         padding: 0;
     }
 }
-/* ------------------------------------------------------------------320px responsive-----Spotlight-----*/
+/* ------------------------------------------------------------------320px responsive-----Highlights-----*/
 @media all and (max-width: 320px){
     #Highlights{
     }
@@ -1154,8 +1154,334 @@ ul li{
     }
 }
 
+/* ///////////////////////////////////////////////////////////////////////////<-- Information-one -->  */
 
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 100px 150px;
+}
+.Information-one-right h3{
+    font-size: 35px;
+}
+.Information-one-right p{
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px;
+    width: 45%;
+}
+.store img{
+    width: 50px;
+    height: 50px;
+}
 
+/* ------------------------------------------------------------------980px responsive-----Information-one-----*/
+@media all and (max-width: 980px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 100px 50px;
+}
+.Information-one-right h3{
+    font-size: 35px;
+}
+.Information-one-right p{
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px;
+    width: 45%;
+}
+.store img{
+    width: 50px;
+    height: 50px;
+}
+}
+/* ------------------------------------------------------------------768px responsive-----Information-one-----*/
+@media all and (max-width: 768px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 50px 30px;
+}
+.Information-one-right h3{
+    font-size: 30px;
+}
+.Information-one-right p{
+    font-size: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 15px;
+    width: 40%;
+}
+.store img{
+    width: 30px;
+    height: 30px;
+}
+}
+/* ------------------------------------------------------------------640px responsive-----Information-one-----*/
+@media all and (max-width: 640px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 10px ;
+}
+.Information-one-right h3{
+    font-size: 27px;
+}
+.Information-one-right p{
+    font-size: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 15px;
+    width: 40%;
+}
+.store img{
+    width: 25px;
+    height: 25px;
+}
+.store span{
+    font-size: 12px;
+}
+}
+/* ------------------------------------------------------------------480px responsive-----Information-one-----*/
+@media all and (max-width: 480px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 10px ;
+}
+.Information-one-right h3{
+    margin: 5px 0;
+    font-size: 23px;
+}
+.Information-one-right p{
+    margin: 0;
+    font-size: 8px;
+    width: 100%;
+    font-weight: 500;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 12px;
+    width: 33%;
+}
+.store img{
+    width: 15px;
+    height: 15px;
+}
+.store span{
+    font-size: 8px;
+}
+}
+/* ------------------------------------------------------------------360px responsive-----Information-one-----*/
+@media all and (max-width: 360px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+}
+.Information-one-left{
+    width: 50%;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 50%;
+    padding: 10px ;
+}
+.Information-one-right h3{
+    margin: 5px 0;
+    font-size: 23px;
+}
+.Information-one-right p{
+    margin: 0;
+    font-size: 8px;
+    width: 100%;
+    font-weight: 500;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px ;
+    width: 45%;
+}
+.store img{
+    width: 15px;
+    height: 15px;
+}
+.store span{
+    font-size: 8px;
+}
+}
+/* ------------------------------------------------------------------320px responsive-----Information-one-----*/
+@media all and (max-width: 320px){
+    
+#Information-one{
+    margin: 75px auto;
+}
+.wrapper.Information-one{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Information-one-left{
+    width: 70%;
+    margin: auto;
+}
+.Information-one-left img{
+    display: block;
+    width: 100%;
+}
+.Information-one-right{
+    width: 100%;
+    padding: 10px ;
+    text-align: center;
+}
+.Information-one-right h3{
+    margin: 5px 0;
+    font-size: 23px;
+}
+.Information-one-right p{
+    margin: 0;
+    font-size: 8px;
+    width: 100%;
+    font-weight: 500;
+}
+.store{
+    border: 1px solid #888398;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px ;
+    width: 30%;
+}
+.store img{
+    width: 15px;
+    height: 15px;
+}
+.store span{
+    font-size: 8px;
+}
+}
 
 
 
