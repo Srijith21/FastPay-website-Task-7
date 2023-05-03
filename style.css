@@ -694,3 +694,470 @@ ul li{
         width: 100%;
     }
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Highlights -->  */
+#Highlights{
+}
+.wrapper.Highlights{
+}
+.Highlights-top{
+    height: auto;
+    text-align: center;
+    margin: 75px auto;
+}
+.Highlights-top h2{
+    font-size: 30px;
+}
+.Highlights-top p{
+    font-size: 15px;
+    width: 40%;
+    margin: auto;
+}
+.Highlights-bottom{
+    margin-top: 50px;
+
+}
+.Highlights-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background: url(./Assets/how\ it\ work\ -\ path.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 50px;
+}
+.Highlights-bottom ul li{
+    width: 30%;
+}
+.Highlights-bottom ul li img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.Highlights-bottom ul li h4{
+    font-size: 22px;
+    padding: 0 30px;
+}
+.Highlights-bottom ul li p{
+    font-size: 15px;
+    padding: 0 30px;
+    width: 65%;
+}
+
+
+/* ------------------------------------------------------------------1440px responsive-----Spotlight-----*/
+@media all and (max-width: 1440px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 75px auto;
+    }
+    .Highlights-top h2{
+        font-size: 30px;
+    }
+    .Highlights-top p{
+        font-size: 15px;
+        width: 40%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin-top: 50px;
+    
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 22px;
+        padding: 0 30px;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 15px;
+        padding: 0 30px;
+        width: 55%;
+    }
+}
+/* ------------------------------------------------------------------1280px responsive-----Spotlight-----*/
+@media all and (max-width: 1280px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 75px auto;
+    }
+    .Highlights-top h2{
+        font-size: 30px;
+    }
+    .Highlights-top p{
+        font-size: 15px;
+        width: 40%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin-top: 50px;
+    
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 22px;
+        padding: 0 30px;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 15px;
+        padding: 0 30px;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Spotlight-----*/
+@media all and (max-width: 980px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 75px auto;
+    }
+    .Highlights-top h2{
+        font-size: 30px;
+    }
+    .Highlights-top p{
+        font-size: 15px;
+        width: 60%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin-top: 50px;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 20px;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 12px;
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+@media all and (max-width: 768px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .Highlights-top h2{
+        font-size: 30px;
+    }
+    .Highlights-top p{
+        font-size: 12px;
+        width: 80%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin-top: 20px;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+        text-align: center;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 14px;
+        padding: 0;
+        margin: auto;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 10px;
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+@media all and (max-width: 640px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .Highlights-top h2{
+        font-size: 27px;
+    }
+    .Highlights-top p{
+        font-size: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin: auto;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+        text-align: center;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 12px;
+        padding: 0;
+        margin: auto;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 8px;
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+@media all and (max-width: 480px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 50px auto 10px ;
+    }
+    .Highlights-top h2{
+        font-size: 24px;
+    }
+    .Highlights-top p{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin: auto;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 30%;
+        text-align: center;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 10px;
+        padding: 0;
+        margin: auto;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 7px;
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+@media all and (max-width: 360px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 30px auto 10px ;
+    }
+    .Highlights-top h2{
+        font-size: 22px;
+    }
+    .Highlights-top p{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin: auto;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 32%;
+        text-align: start;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 150px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 10px;
+        padding: 0;
+        margin: auto;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 7px;
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Spotlight-----*/
+@media all and (max-width: 320px){
+    #Highlights{
+    }
+    .wrapper.Highlights{}
+    .Highlights-top{
+        height: auto;
+        text-align: center;
+        margin: 30px auto 10px ;
+    }
+    .Highlights-top h2{
+        font-size: 22px;
+    }
+    .Highlights-top p{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+    }
+    .Highlights-bottom{
+        margin: auto;
+    }
+    .Highlights-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background: url(./Assets/how\ it\ work\ -\ path.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+    }
+    .Highlights-bottom ul li{
+        width: 32%;
+        text-align: start;
+    }
+    .Highlights-bottom ul li img{
+        display: block;
+        width: 100%;
+        height: 150px;
+        margin: auto;
+    }
+    .Highlights-bottom ul li h4{
+        font-size: 10px;
+        padding: 0;
+        margin: auto;
+    }
+    .Highlights-bottom ul li p{
+        font-size: 7px;
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
