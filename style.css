@@ -72,7 +72,7 @@ ul li{
     position: relative;
 }
 .navbar ul li a:active{
-    color: black;
+    color: #000;
 }
 .navbar ul li a::after{
     content: '';
@@ -98,6 +98,9 @@ ul li{
 .log-in{
     margin: 0 20px;
 }
+.log-in-box a{
+    color: #888398;
+}
 .sign-up{
     background: linear-gradient(180deg, #E45F83, #f3b8a1);
     padding: 10px 25px;
@@ -105,7 +108,9 @@ ul li{
     border-radius: 50px;
     color: #fff;
 }
-
+.sign-up a{
+    color: #fff;
+}
 .sidebar-button-div{
     display: none;
 }
@@ -369,7 +374,7 @@ ul li{
     font-weight: 300;
 }
 .sidebar ul li a{
-    color: #000;
+    color: #888398;
     font-size: 15px;
     font-weight: bold;
     margin: 15px auto;
@@ -2060,11 +2065,9 @@ ul li{
 .footer-top-left{
     width: 30%;
 }
-.footer-logo-section{
-}
 .footer-logo{
     display: block;
-    width: 30%;
+    width: 40%;
 }
 .footer-top-left p{
     font-size: 13px;
@@ -2079,8 +2082,6 @@ ul li{
     height: 15px;
     margin: 10px;
 }
-
-
 .footer-top-right{
     width: 50%;
 }
@@ -2098,7 +2099,6 @@ ul li{
 .footer-top-right-ul-li p{
     font-size: 13px;
 }
-
 .footer-bottom{
     margin:50px 0 25px 0;
     text-align: center;
@@ -2353,3 +2353,10 @@ ul li{
         font-size: 8px;
     }
 }
+
+
+
+
+
+
+
