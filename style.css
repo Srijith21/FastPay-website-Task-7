@@ -1500,7 +1500,7 @@ ul li{
 }
 .Information-two-left h3{
     font-size: 35px;
-    width: 65%;
+    width: 70%;
 }
 .Information-two-left p{
     font-size: 14px;
@@ -1515,7 +1515,6 @@ ul li{
     padding: 15px 25px;
     font-size: 15px;
     margin: 25px 0;
-
 }
 .Information-two-right{
     width: 50%;
@@ -1780,3 +1779,577 @@ ul li{
 }
 }
 
+/* ///////////////////////////////////////////////////////////////////////////<-- NewsLetter--> */
+
+#NewsLetter{}
+.wrapper.NewsLetter{
+}
+.NewsLetter-content{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.NewsLetter-content h3{
+    font-size: 30px;
+}
+.NewsLetter-content p{
+    font-size: 15px;
+}
+.email-box{
+    border: #888398 1px solid;
+    border-radius: 20px;
+    width: 70%;
+    margin:70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.email-box input{
+    width: auto;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+}
+.email-box input::placeholder{
+    font-size: 15px;
+}
+/* ------------------------------------------------------------------980px responsive-----NewsLetter-----*/
+@media all and (max-width: 980px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 30px;
+    }
+    .NewsLetter-content p{
+        font-size: 15px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 85%;
+        margin:70px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 10px 40px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 15px;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----NewsLetter-----*/
+@media all and (max-width: 768px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 30px;
+    }
+    .NewsLetter-content p{
+        font-size: 15px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 100%;
+        margin:70px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 7px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 15px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----NewsLetter-----*/
+@media all and (max-width: 640px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 30px;
+    }
+    .NewsLetter-content p{
+        font-size: 15px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 100%;
+        margin:70px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 7px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 10px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 13px;
+    }
+    .button.NewsLetter{
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----NewsLetter-----*/
+@media all and (max-width: 480px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 25px;
+    }
+    .NewsLetter-content p{
+        font-size: 11px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 90%;
+        margin:40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 7px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 10px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 11px;
+    }
+    .button.NewsLetter{
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----NewsLetter-----*/
+@media all and (max-width: 360px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 20px;
+    }
+    .NewsLetter-content p{
+        font-size: 9px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 90%;
+        margin:40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 7px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 10px 2px 10px 5px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 9px;
+    }
+    .button.NewsLetter{
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----NewsLetter-----*/
+@media all and (max-width: 320px){
+    #NewsLetter{}
+    .wrapper.NewsLetter{
+
+    }
+    .NewsLetter-content{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .NewsLetter-content h3{
+        font-size: 18px;
+    }
+    .NewsLetter-content p{
+        font-size: 9px;
+    }
+    .email-box{
+        border: #888398 1px solid;
+        border-radius: 20px;
+        width: 90%;
+        margin:40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 7px;
+    }
+    .email-box input{
+        width: auto;
+        padding: 7px 2px 7px 5px;
+        border: none;
+        outline: none;
+    }
+    .email-box input::placeholder{
+        font-size: 9px;
+    }
+    .button.NewsLetter{
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Footer--> */
+#Footer{
+    margin: 100px 0 30px;
+}
+.wrapper.Footer{
+    background: #F8F8FA;
+    padding: 100px 50px 15px ;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left{
+    width: 30%;
+}
+.footer-logo-section{
+}
+.footer-logo{
+    display: block;
+    width: 30%;
+}
+.footer-top-left p{
+    font-size: 13px;
+    width: 60%;
+}
+.social-section{
+    width: 30%;
+    display: flex;
+}
+.social-icon{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+
+.footer-top-right{
+    width: 50%;
+}
+.footer-top-right-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-right-ul-li{
+    width: 33%;
+}
+.footer-top-right-ul-li h5{
+    font-size: 16px;
+    margin: 25px 0;
+}
+.footer-top-right-ul-li p{
+    font-size: 13px;
+}
+
+.footer-bottom{
+    margin:50px 0 25px 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* ------------------------------------------------------------------980px responsive-----footer-----*/
+@media all and (max-width: 980px){
+    #Footer{
+        margin: 100px 0 30px;
+    }
+    .wrapper.Footer{
+        background: #F8F8FA;
+        padding: 70px 50px 15px ;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-left{
+        width: 30%;
+    }
+    .footer-logo-section{
+    }
+    .footer-logo{
+        display: block;
+        width: 50%;
+    }
+    .footer-top-left p{
+        font-size: 13px;
+        width: 70%;
+    }
+    .social-section{
+        width: 30%;
+        display: flex;
+    }
+    .social-icon{
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+    }
+    
+    
+    .footer-top-right{
+        width: 60%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-right-ul-li{
+        width: 33%;
+    }
+    .footer-top-right-ul-li h5{
+        font-size: 16px;
+        margin: 25px 0;
+    }
+    .footer-top-right-ul-li p{
+        font-size: 11px;
+    }
+    
+    .footer-bottom{
+        margin:50px 0 25px 0;
+        text-align: center;
+        font-size: 11px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----footer-----*/
+@media all and (max-width: 640px){
+    #Footer{
+        margin: 100px 0 30px;
+    }
+    .wrapper.Footer{
+        background: #F8F8FA;
+        padding: 70px 50px 15px ;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-left{
+        width: 30%;
+    }
+    .footer-logo-section{
+    }
+    .footer-logo{
+        display: block;
+        width: 70%;
+    }
+    .footer-top-left p{
+        font-size: 11px;
+        width: 90%;
+    }
+    .social-section{
+        width: 30%;
+        display: flex;
+    }
+    .social-icon{
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+    }
+    
+    
+    .footer-top-right{
+        width: 60%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-right-ul-li{
+        width: 33%;
+    }
+    .footer-top-right-ul-li h5{
+        font-size: 14px;
+        margin: 25px 0;
+    }
+    .footer-top-right-ul-li p{
+        font-size: 11px;
+    }
+    
+    .footer-bottom{
+        margin:50px 0 25px 0;
+        text-align: center;
+        font-size: 11px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----footer-----*/
+@media all and (max-width: 480px){
+    #Footer{
+        margin: 100px 0 30px;
+    }
+    .wrapper.Footer{
+        background: #F8F8FA;
+        padding:30px 15px  0 ;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-left{
+        width: 30%;
+    }
+    .footer-logo-section{
+    }
+    .footer-logo{
+        display: block;
+        width: 70%;
+    }
+    .footer-top-left p{
+        font-size: 8px;
+        width: 90%;
+    }
+    .social-section{
+        width: 30%;
+        display: flex;
+    }
+    .social-icon{
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+    }
+    .footer-top-right{
+        width: 60%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-right-ul-li{
+        width: 33%;
+    }
+    .footer-top-right-ul-li h5{
+        font-size: 12px;
+        margin: 0 0 25px 0 ;
+    }
+    .footer-top-right-ul-li p{
+        font-size: 8px;
+        margin: 5px;
+    }
+    
+    .footer-bottom{
+        margin:50px 0 25px 0;
+        text-align: center;
+        font-size: 8px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----footer-----*/
+@media all and (max-width: 360px){
+    #Footer{
+        margin: 100px 0 30px;
+    }
+    .wrapper.Footer{
+        background: #F8F8FA;
+        padding:30px 15px  0 ;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-top-left{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-logo-section{
+    }
+    .footer-logo{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+    .footer-top-left p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .social-section{
+        width: 30%;
+        display: flex;
+        margin: auto;
+    }
+    .social-icon{
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+    }
+    .footer-top-right{
+        width: 100%;
+        margin: 25px auto;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-top-right-ul-li{
+        width: 33%;
+        text-align: center;
+    }
+    .footer-top-right-ul-li h5{
+        font-size: 12px;
+        margin: 0 0 15px 0 ;
+    }
+    .footer-top-right-ul-li p{
+        font-size: 8px;
+        margin: 5px;
+    }
+    .footer-bottom{
+        margin:10px 0 5px 0;
+        text-align: center;
+        font-size: 8px;
+    }
+}
